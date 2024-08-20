@@ -8,11 +8,9 @@ using namespace std;
 
 public:emp() //default const
 {
-    cout<<"enter the name of customer:"<<"enter you type of accoont";
-    
+    cout<<"enter the name of customer:";
     getline(cin,name_of_cust);
-   // cout<<"enter you type of accoont";
-    
+    cout<<"enter you type of accoont";
     getline(cin,type_of_acc);
     cout<<"account no:";
     cin>>acc_no;
